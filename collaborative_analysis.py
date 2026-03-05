@@ -127,7 +127,10 @@ def heat_index(temp_f, rh):
     """
     # TODO (Partner B): implement the simplified heat index
     # Return None if temp_f < 80
-    pass
+    if temp_f < 80:
+        return None
+    heat_index = -42.379 + 2.04901523*temp_f + 10.14333127*rh - 0.22475541*temp_f*rh - 0.00683783*temp_f^2 - 0.05481717*rh^2 + 0.00122874*temp_f^2*rh + 0.00085282*temp_f*rh^2- 0.00000199*temp_f^2*rh^2
+    return heat_index
 
 
 # ============================================================
