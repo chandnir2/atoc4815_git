@@ -34,7 +34,8 @@ def fahrenheit_to_celsius(temp_f):
         Temperature in Celsius.
     """
     # TODO (Partner A): implement the conversion
-    pass
+    temp_c = (temp_f - 32) * 5/9
+    return temp_c
 
 
 def celsius_to_fahrenheit(temp_c):
