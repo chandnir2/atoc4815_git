@@ -1,6 +1,7 @@
 """
 Denver January 2025 Wind Analysis
 ATOC 4815/5815 - Git Practice Exercise 2
+Chandni Rajesh
 
 Instructions:
     1. Complete the TODO sections
